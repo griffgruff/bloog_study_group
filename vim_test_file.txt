@@ -1,0 +1,3 @@
+var foo = 0;;
+var bar = 1;;
+var foobar = foo + bar;;

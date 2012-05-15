@@ -1,0 +1,117 @@
+Some keyboard setting for Vim
+-----------------------------
+
+leader				: space
+ctrl + n			: show NERDTREE
+leader + rt		: run spec - this will out put the result in the other window
+
+
+Finding Files
+-------------
+
+leader ff				: Fuzzy File
+leader fb			  : Fuzzy Buffer
+leader be				: Buffer explorer ( easy way to list all buffers )
+
+leader e        : list of recently used files
+leader be       ; list of buffers (think tabs) by recently used.
+
+
+Set Caps lock to Crtl
+---------------------
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------
+
+tmux colors
+-----------
+
+tmux aliased to TERM=xterm-256color tmux
+
+
+Manage tmux sessions
+---------------------
+
+tmux new -s ruby_bloog
+
+tmux attach -t ruby_bloog
+
+
+
+Some keyboard setting for tmux
+------------------------------
+
+ctrl + a			 : this is the prefix command
+
+ctrl + d       : detach the current session
+
+
+Creating a new pane ( split )
+-----------------------------
+
+ctrl + a, |    : create a split, ie create a new pane, normall this is on the right
+
+ctrl + a, H    : move the split, ie make it move to the left
+
+ctrl + a, L    : move the split, ie. make it move to the right
+
+
+Turning a Pane into a window
+----------------------------
+
+ctrl + a, !
+
+Joining a pane
+--------------
+
+ctrl + :      : go to the command line
+
+:join-pane -s 1
+
+
+Maximizing and Restoring Pane
+-----------------------------
+
+
+
+
+
+Moving between panes
+------------------------
+
+ctrl + a, l    : jump to the pane on the right 
+
+ctrl + a, h    : jump to the pane on the left 
+
+ctrl + a, j    : jump to the pane on the bottom 
+
+ctrl + a, k    : jump to the pane on the top 
+
+
+Creating a new window ( tab )
+-----------------------------
+
+ctrl + a, c    : create a new tab
+
+
+Moving between windows ( tabs )
+-------------------------------
+
+ctrl + a, 1    : tab 1
+ctrl + a, 2    : tab 2
+
+
+
+
+
+Using the Mouse
+---------------
+
+The mouse can be use to move between panes.

@@ -1,0 +1,66 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Bloog2
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Blog	app/models/blog.rb	/^class Blog$/;"	c
+BlogController	app/controllers/blog_controller.rb	/^class BlogController < ApplicationController$/;"	c
+BlogHelper	app/helpers/blog_helper.rb	/^module BlogHelper$/;"	m
+Bloog2	config/application.rb	/^module Bloog2$/;"	m
+CreatePosts	db/migrate/201205031602_create_posts.rb	/^class CreatePosts < ActiveRecord::Migration$/;"	c
+Exhibit	app/exhibits/exhibit.rb	/^class Exhibit < SimpleDelegator$/;"	c
+ExhibitsHelper	app/helpers/exhibits_helper.rb	/^module ExhibitsHelper$/;"	m
+LinkExhibit	app/exhibits/text_post_exhibit.rb	/^class LinkExhibit < Exhibit$/;"	c
+MiniTest	spec/spec_helper_lite.rb	/^class MiniTest::Unit::TestCase$/;"	c
+Person	app/models/post.rb	/^class Person$/;"	c
+PicturePostExhibit	app/exhibits/picture_post_exhibit.rb	/^class PicturePostExhibit < Exhibit$/;"	c
+Post	app/models/post.rb	/^class Post < ActiveRecord::Base$/;"	c
+PostsController	app/controllers/posts_controller.rb	/^class PostsController < ApplicationController$/;"	c
+SpecHelpers	spec/spec_helper_full.rb	/^module SpecHelpers$/;"	m
+SpecHelpers	spec/spec_helper_nulldb.rb	/^module SpecHelpers$/;"	m
+TextPostExhibit	app/exhibits/text_post_exhibit.rb	/^class TextPostExhibit < Exhibit $/;"	c
+add_entry	app/models/blog.rb	/^  def add_entry(entry)$/;"	f	class:Blog
+applicable_to	app/exhibits/exhibit.rb	/^  def self.applicable_to?(object)$/;"	F	class:Exhibit
+applicable_to	app/exhibits/picture_post_exhibit.rb	/^  def self.applicable_to?(object)$/;"	F	class:PicturePostExhibit
+applicable_to	app/exhibits/text_post_exhibit.rb	/^  def self.applicable_to?(object)$/;"	F	class:LinkExhibit
+applicable_to	app/exhibits/text_post_exhibit.rb	/^  def self.applicable_to?(object)$/;"	F	class:TextPostExhibit
+class	app/helpers/exhibits_helper.rb	/^  def class$/;"	f	class:ExhibitsHelper
+create	app/controllers/posts_controller.rb	/^  def create$/;"	f	class:PostsController
+displaymessage	simple.js	/^function displaymessage(ssss) {$/;"	f
+down	db/migrate/201205031602_create_posts.rb	/^  def self.down$/;"	F	class:CreatePosts
+entries	app/models/blog.rb	/^  def entries$/;"	f	class:Blog
+exhibit	app/exhibits/exhibit.rb	/^  def self.exhibit(object, context)$/;"	F	class:Exhibit
+exhibit	app/helpers/exhibits_helper.rb	/^  def exhibit(model,context)$/;"	f	class:ExhibitsHelper
+exhibit_if_applicable	app/exhibits/exhibit.rb	/^  def self.exhibit_if_applicable(object, context)$/;"	F	class:Exhibit
+exhibits	app/exhibits/exhibit.rb	/^  def self.exhibits$/;"	F	class:Exhibit
+fetch_entries	app/models/blog.rb	/^  def fetch_entries$/;"	f	class:Blog
+index	app/controllers/blog_controller.rb	/^  def index$/;"	f	class:BlogController
+init_blog	app/controllers/application_controller.rb	/^	def init_blog$/;"	f	class:ApplicationController
+initialize	app/exhibits/exhibit.rb	/^  def initialize(model, context)$/;"	f	class:Exhibit
+initialize	app/models/blog.rb	/^  def initialize(entry_fetcher=Post.public_method(:all))$/;"	f	class:Blog
+initialize	app/models/post.rb	/^  def initialize(attributes = {})$/;"	f	class:Person
+make_entry_with_date	spec/models/blog_integration_spec.rb	/^    def make_entry_with_date(date)$/;"	f
+make_post	spec/models/post_integration_spec.rb	/^  def make_post(attrs)$/;"	f
+new	app/controllers/posts_controller.rb	/^  def new$/;"	f	class:PostsController
+new_post	app/models/blog.rb	/^  def new_post(*args)$/;"	f	class:Blog
+picture?	app/models/post.rb	/^  def picture?$/;"	f	class:Post
+post_source	app/models/blog.rb	/^  def post_source$/;"	f	class:Blog
+publish	app/models/post.rb	/^  def publish(clock=DateTime)$/;"	f	class:Post
+render_body	app/exhibits/picture_post_exhibit.rb	/^  def render_body$/;"	f	class:PicturePostExhibit
+render_body	app/exhibits/text_post_exhibit.rb	/^  def render_body$/;"	f	class:TextPostExhibit
+set_default_body	app/models/post.rb	/^  def set_default_body$/;"	f	class:Post
+setup	spec/spec_helper_full.rb	/^  def setup$/;"	f	class:SpecHelpers
+setup_database	spec/spec_helper_full.rb	/^  def setup_database$/;"	f	class:SpecHelpers
+setup_nulldb	spec/spec_helper_nulldb.rb	/^  def setup_nulldb$/;"	f	class:SpecHelpers
+stub_class	spec/spec_helper_lite.rb	/^def stub_class(full_name)$/;"	f
+stub_module	spec/spec_helper_lite.rb	/^def stub_module(full_name)$/;"	f
+subtitle	app/models/blog.rb	/^  def subtitle$/;"	f	class:Blog
+teardown_database	spec/spec_helper_full.rb	/^  def teardown_database$/;"	f	class:SpecHelpers
+teardown_nulldb	spec/spec_helper_nulldb.rb	/^  def teardown_nulldb$/;"	f	class:SpecHelpers
+title	app/models/blog.rb	/^  def title$/;"	f	class:Blog
+to_model	app/helpers/exhibits_helper.rb	/^  def to_model$/;"	f	class:ExhibitsHelper
+up	db/migrate/201205031602_create_posts.rb	/^  def self.up$/;"	F	class:CreatePosts
