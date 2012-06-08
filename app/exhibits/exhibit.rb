@@ -10,6 +10,10 @@ class Exhibit < SimpleDelegator
     exhibits.inject(object) do |object, exhibit_class|
       exhibit_class.exhibit_if_applicable(object, context)
     end
+
+    #self.exhibits.each do |exhibit|
+    #  return exhibit.new(object, context) if exhibit.applicable_to?(object) 
+    #end
   end
   
   def self.exhibit_if_applicable(object, context)
