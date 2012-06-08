@@ -37,5 +37,4 @@ class Blog
     @entry_fetcher.()
   end
 
-
 end

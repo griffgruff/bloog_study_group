@@ -16,7 +16,6 @@ Exhibit	app/exhibits/exhibit.rb	/^class Exhibit < SimpleDelegator$/;"	c
 ExhibitsHelper	app/helpers/exhibits_helper.rb	/^module ExhibitsHelper$/;"	m
 LinkExhibit	app/exhibits/text_post_exhibit.rb	/^class LinkExhibit < Exhibit$/;"	c
 MiniTest	spec/spec_helper_lite.rb	/^class MiniTest::Unit::TestCase$/;"	c
-Person	app/models/post.rb	/^class Person$/;"	c
 PicturePostExhibit	app/exhibits/picture_post_exhibit.rb	/^class PicturePostExhibit < Exhibit$/;"	c
 Post	app/models/post.rb	/^class Post < ActiveRecord::Base$/;"	c
 PostsController	app/controllers/posts_controller.rb	/^class PostsController < ApplicationController$/;"	c
@@ -42,7 +41,6 @@ index	app/controllers/blog_controller.rb	/^  def index$/;"	f	class:BlogControlle
 init_blog	app/controllers/application_controller.rb	/^	def init_blog$/;"	f	class:ApplicationController
 initialize	app/exhibits/exhibit.rb	/^  def initialize(model, context)$/;"	f	class:Exhibit
 initialize	app/models/blog.rb	/^  def initialize(entry_fetcher=Post.public_method(:all))$/;"	f	class:Blog
-initialize	app/models/post.rb	/^  def initialize(attributes = {})$/;"	f	class:Person
 make_entry_with_date	spec/models/blog_integration_spec.rb	/^    def make_entry_with_date(date)$/;"	f
 make_post	spec/models/post_integration_spec.rb	/^  def make_post(attrs)$/;"	f
 new	app/controllers/posts_controller.rb	/^  def new$/;"	f	class:PostsController
